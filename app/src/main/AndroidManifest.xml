@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.nicestart">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -15,27 +15,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Nicestart."
         tools:targetApi="31">
-
+        <activity
+            android:name=".NoPeople"
+            android:exported="true" />
         <activity
             android:name=".Splash"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Login"
-            android:exported="true">
-        </activity>
-
+            android:exported="true"></activity>
         <activity
             android:name=".Signup"
             android:exported="true"
             android:parentActivityName=".Login"
-            android:theme="@style/ActionTheme">
-        </activity>
+            android:theme="@style/ActionTheme"></activity>
     </application>
 
 </manifest>
