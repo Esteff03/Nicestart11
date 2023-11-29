@@ -1,5 +1,19 @@
 # Nicestart11
 
+
+
+
+
+
+
+
+https://github.com/Esteff03/Nicestart11/assets/131858712/6ba6e169-b07c-4976-a345-02bb0ea63a51
+
+
+
+
+
+
 Este es un proyecto inicial del módulo Desarrollo de interfaces del grado superior DAM
 En esta aplicación se muestra una primera ventana o Splash screen, Una pantalla de inicio
 es un elemento de control gráfico que consta de una ventana que contiene una imagen, 
